@@ -1,4 +1,4 @@
-import app from '../server';
+import app from '../server.ts';
 
 // Vercel Serverless Function config:
 // - bodyParser: false  → lets Express + multer handle multipart/form-data uploads
@@ -13,4 +13,3 @@ export const config = {
 };
 
 export default app;
-Fix: use .ts import so Vercel bundles server correctly
