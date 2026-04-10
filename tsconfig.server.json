@@ -2,16 +2,16 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node16",
     "lib": ["ES2022"],
     "skipLibCheck": true,
     "allowJs": true,
     "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "noEmit": false,
+    "outDir": ".",
     "strict": false,
     "resolveJsonModule": true
   },
-  "include": ["server.ts", "api/**/*.ts"],
+  "include": ["server.ts"],
   "exclude": ["node_modules", "dist", "src"]
 }
