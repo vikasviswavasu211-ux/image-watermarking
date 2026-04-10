@@ -13,3 +13,4 @@ export const config = {
 };
 
 export default app;
+Fix: use .ts import so Vercel bundles server correctly
